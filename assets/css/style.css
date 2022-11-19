@@ -7,6 +7,7 @@
 
 html {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
 
 #main {
@@ -15,6 +16,10 @@ html {
 #header {
   height: 46px;
   background-color: black;
+}
+
+#nav {
+  display: inline-block;
 }
 
 #nav,
@@ -66,6 +71,20 @@ html {
   color: black;
   line-height: 38px;
   padding: 0 16px;
+}
+
+#header .search-btn {
+  float: right;
+  padding: 0 23px;
+}
+
+#header .search-btn:hover {
+  background-color: #f44336;
+}
+
+#header .search-icon {
+  color: white;
+  line-height: 46px;
 }
 
 #slider {
