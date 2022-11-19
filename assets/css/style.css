@@ -17,28 +17,55 @@ html {
   background-color: black;
 }
 
-#nav {
+#nav,
+.subnav {
+  list-style-type: none;
+}
+
+#nav > li {
+  display: inline-block;
 }
 
 #nav li {
-  display: inline-block;
+  position: relative;
+}
+
+#nav > li > a {
+  color: white;
+  text-transform: uppercase;
 }
 
 #nav li a {
-  display: inline-block;
+  display: block;
   line-height: 46px;
-  color: white;
   text-decoration: none;
   padding: 0 24px;
 }
 
-#nav li:hover a {
+#nav li:hover .subnav {
+  display: block;
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover a {
   background-color: #ccc;
   color: black;
 }
 
 #nav .subnav {
   display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav a {
+  color: black;
+  line-height: 38px;
+  padding: 0 16px;
 }
 
 #slider {
