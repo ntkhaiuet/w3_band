@@ -11,6 +11,10 @@ html {
   line-height: 1.5;
 }
 
+.clear {
+  clear: both;
+}
+
 #main {
 }
 
@@ -159,6 +163,25 @@ html {
   text-align: justify;
   line-height: 1.5;
   margin: 15px 0;
+}
+
+#content .members-list {
+  padding: 32px 0;
+}
+
+#content .member-item {
+  float: left;
+  text-align: center;
+  width: calc(100% / 3);
+}
+
+#content .member-name {
+  margin: 15px 0;
+}
+
+#content .member-img {
+  width: 60%;
+  border-radius: 4px;
 }
 
 #footer {

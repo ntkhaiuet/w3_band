@@ -14,7 +14,7 @@ W3 Band: https://www.w3schools.com/w3css/tryw3css_templates_band.htm
    1. Header -> OK
    2. Slider -> OK
    3. Content
-      1. About
+      1. About -> OK
       2. Tour
       3. Contact
       4. Image
