@@ -12,7 +12,7 @@ W3 Band: https://www.w3schools.com/w3css/tryw3css_templates_band.htm
 2. Dựng base -> OK
 3. Xây dựng từng phần theo phân tích
    1. Header -> OK
-   2. Slider
+   2. Slider -> OK
    3. Content
       1. About
       2. Tour
