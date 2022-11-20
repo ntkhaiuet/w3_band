@@ -20,6 +20,7 @@ html {
   right: 0;
   height: 46px;
   background-color: black;
+  z-index: 1;
 }
 
 #nav {
@@ -92,7 +93,40 @@ html {
 }
 
 #slider {
+  position: relative;
   margin-top: 46px;
+  padding-top: 50%;
+  background: url("/assets/img/slider/chicago.jpg") top center / cover no-repeat;
+}
+
+#slider .text-content {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  /* Cach can giua #1 */
+  width: 100%;
+  text-align: center;
+
+  /* Cach can giua #2 */
+  /* left: 0;
+  right: 0;
+  text-align: center; */
+
+  /* Cach can giua #3 */
+  /* left: 50%;
+  transform: translateX(-50%);
+  text-align: center; */
+}
+
+#slider .text-heading {
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#slider .text-description {
+  margin-bottom: 47px;
+  font-weight: bolder;
 }
 
 #content {
