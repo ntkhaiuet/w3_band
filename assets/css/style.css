@@ -10,7 +10,7 @@ html {
   font-size: 15px;
   line-height: 1.5;
 }
-
+/* Common */
 .clear {
   clear: both;
 }
@@ -18,6 +18,26 @@ html {
 .text-white {
   color: #fff !important;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.row {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.col {
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.col-third {
+  width: calc(100% / 3);
+}
+/* Common */
 
 #main {
 }
@@ -173,12 +193,6 @@ html {
   padding: 32px 0;
 }
 
-#content .member-item {
-  float: left;
-  text-align: center;
-  width: calc(100% / 3);
-}
-
 #content .member-name {
   margin: 15px 0;
 }
@@ -226,19 +240,15 @@ html {
 
 .places-list {
   padding: 32px 0px;
-  margin: 0 -8px;
 }
 
 .place-item {
-  float: left;
-  width: calc(100% / 3);
   margin-bottom: 16px;
 }
 
 .place-img {
   display: block;
   width: 100%;
-  padding: 0 8px;
 }
 
 .place-img:hover {
@@ -246,7 +256,6 @@ html {
 }
 
 .place-body {
-  margin: 0 8px;
   padding: 0 16px;
   background-color: #fff;
   color: #000;
