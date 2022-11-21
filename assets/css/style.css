@@ -274,6 +274,9 @@ html {
   background-color: #000;
   color: #fff;
   text-decoration: none;
+  border: none;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 .place-buy-btn:hover {
@@ -305,7 +308,8 @@ html {
   position: relative;
   background-color: #fff;
   width: 900px;
-  max-width: calc(100% - 24px);
+  max-width: calc(100% - 32px);
+  animation: modalFadeIn ease 0.5s;
 }
 
 .modal-body {
@@ -373,4 +377,15 @@ html {
 
 .modal-help a {
   color: #2196f3;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-150px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
