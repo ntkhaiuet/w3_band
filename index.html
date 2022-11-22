@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Band</title>
+    <title>The band</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -14,19 +15,19 @@
     <div id="main">
         <div id="header">
             <ul id="nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Band</a></li>
-                <li><a href="">Tour</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li>
-                    <a href="">
+                    <a href="#" class="disable-link">
                         More
                         <i class="caret-down fa fa-caret-down"></i>
                     </a>
                     <ul class="subnav">
-                        <li><a href="">Merchandise</a></li>
-                        <li><a href="">Extras</a></li>
-                        <li><a href="">Media</a></li>
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
                     </ul>
                 </li>
             </ul>
@@ -44,7 +45,8 @@
         </div>
 
         <div id="content">
-            <div class="content-section">
+            <!-- Begin: About section -->
+            <div id="band" class="content-section">
                 <h2 class="content-heading">THE BAND</h2>
                 <p class="content-sub-heading">We love music</p>
                 <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur
@@ -70,8 +72,10 @@
                     </div>
                 </div>
             </div>
+            <!-- End: About section -->
 
-            <div class="tour-section">
+            <!-- Begin: Tour section -->
+            <div id="tour" class="tour-section">
                 <div class="content-section">
                     <h2 class="content-heading text-white">TOUR DATES</h2>
                     <p class="content-sub-heading text-white">Remember to book your tickets!</p>
@@ -111,9 +115,10 @@
                     </div>
                 </div>
             </div>
+            <!-- End: Tour section -->
 
-            <!-- Begin: Content section -->
-            <div class="content-section">
+            <!-- Begin: Contact section -->
+            <div id="contact" class="content-section">
                 <h2 class="content-heading">CONTACT</h2>
                 <p class="content-sub-heading">Fan? Drop a note!</p>
 
@@ -146,7 +151,7 @@
                     </div>
                 </div>
             </div>
-            <!-- End: Content section -->
+            <!-- End: Contact section -->
 
             <div class="map-section">
                 <img src="./assets/img/map.jpg" alt="Map">
