@@ -19,6 +19,28 @@ html {
   text-align: center !important;
 }
 
+.pull-right {
+  float: right;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-bottom: 15px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  color: #000;
+}
+
 .row {
   margin-left: -8px;
   margin-right: -8px;
@@ -56,9 +78,6 @@ html {
   margin-top: 16px;
 }
 /* Common */
-
-#main {
-}
 
 #header {
   position: fixed;
@@ -131,6 +150,7 @@ html {
 }
 
 #header .search-btn:hover {
+  cursor: pointer;
   background-color: #f44336;
 }
 
@@ -174,9 +194,6 @@ html {
 #slider .text-description {
   margin-bottom: 47px;
   font-weight: bolder;
-}
-
-#content {
 }
 
 #content .content-section {
@@ -294,23 +311,6 @@ html {
   margin-bottom: 15px;
 }
 
-.place-buy-btn {
-  display: inline-block;
-  padding: 8px 16px;
-  margin-bottom: 15px;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-  border: none;
-  font-size: 15px;
-  line-height: 1.5;
-}
-
-.place-buy-btn:hover {
-  background-color: #ccc;
-  color: #000;
-}
-
 .contact-content {
   padding: 32px 0;
 }
@@ -340,15 +340,33 @@ html {
   border: 1px solid #ccc;
 }
 
-.contact-form .form-submit-btn {
-  background-color: #000;
-  color: #fff;
-  border: none;
-  padding: 8px 16px;
-  float: right;
+.map-section img {
+  width: 100%;
+  filter: grayscale(50%);
 }
 
 #footer {
+  padding: 64px 16px;
+  text-align: center;
+}
+
+#footer .socials-list {
+  font-size: 24px;
+}
+
+#footer .copyright,
+#footer .copyright a,
+#footer .socials-list a {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .copyright a:hover,
+#footer .socials-list a:hover {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#footer .copyright {
+  margin: 15px 0;
 }
 
 .modal {
@@ -416,6 +434,7 @@ html {
 }
 
 #buy-tickets:hover {
+  cursor: pointer;
   background-color: #ccc;
   color: #000;
 }
@@ -429,6 +448,7 @@ html {
 }
 
 .modal-close:hover {
+  cursor: pointer;
   background-color: #ccc;
   color: #000;
 }

@@ -17,6 +17,6 @@ W3 Band: https://www.w3schools.com/w3css/tryw3css_templates_band.htm
       1. About -> OK
       2. Tour -> OK
       3. Contact -> OK
-      4. Image
-   4. Footer
+      4. Image -> OK
+   4. Footer -> OK
 4. Hoàn thiện
