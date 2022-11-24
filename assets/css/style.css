@@ -25,11 +25,6 @@ html {
   float: right !important;
 }
 
-.disable-link {
-  pointer-events: none;
-  cursor: default;
-}
-
 .btn {
   display: inline-block;
   padding: 8px 16px;
@@ -94,7 +89,6 @@ html {
   height: 46px;
   background-color: black;
   z-index: 1;
-  overflow: hidden;
 }
 
 #nav {
