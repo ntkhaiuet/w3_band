@@ -151,15 +151,18 @@ html {
   line-height: 38px;
   padding: 0 16px;
 }
+
+#header .menu-mobile-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
 #header .menu-mobile-btn,
 #header .search-btn {
   float: right;
   padding: 0 23px;
-}
-
-#header .search-btn:hover {
-  cursor: pointer;
-  background-color: #f44336;
 }
 
 #header .menu-mobile-btn:hover {
@@ -168,6 +171,11 @@ html {
 
 #header .menu-mobile-btn:hover .menu-icon {
   color: #000;
+}
+
+#header .search-btn:hover {
+  cursor: pointer;
+  background-color: #f44336;
 }
 
 #header .menu-icon,
