@@ -8,6 +8,15 @@
 
 /* Mobile */
 @media (max-width: 739px) {
+  .s-full-width,
+  #content .s-col-full {
+    width: 100% !important;
+  }
+
+  .s-mt-8 {
+    margin-top: 8px;
+  }
+
   #header {
     overflow: hidden;
   }
@@ -46,7 +55,7 @@
     display: inline-block;
   }
 
-  #content .s-col-full {
-    width: 100%;
+  .contact-info {
+    margin-bottom: 16px;
   }
 }
