@@ -45,4 +45,8 @@
   #nav > li:first-child {
     display: inline-block;
   }
+
+  #content .s-col-full {
+    width: 100%;
+  }
 }
